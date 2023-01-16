@@ -1,0 +1,96 @@
+
+.about{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  section .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 250px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+  }
+  .about .title::after {
+    content: "who are we?";
+  }
+  section .title::after {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(75, 159, 175);
+    padding: 0 5px;
+    background: rgb(255, 255, 255);
+    transform: translateX(-50%);
+  }
+  
+  
+  .about .about-content .right {
+    width: 55%;
+  }
+  .about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .about .about-content .right .text span {
+    color: rgb(255, 236, 27);
+  }
+  .about .about-content .right p {
+    display: flex;
+    align-items: center;
+  }
+  .about .about-content .right a {
+    display: inline-block;
+    background: rgb(0, 77, 4);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 3px solid rgb(27, 203, 4);
+  }
+  .about .about-content .right a:hover {
+    background-color: transparent;
+    color: rgb(0, 77, 4);
+    transition: all 0.5s ease;
+  }
+  about .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+h1{
+  padding: 10px 30px;
+    font-size:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+    
+}
+    
+.project-list{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+ul.li.span{
+  color:rebeccapurple;
+}
